@@ -412,3 +412,23 @@ h1{
 .linkedin-badge{
   margin-top: 24px;
 }
+
+/* =========================
+   Skills / Badges
+========================= */
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.skill{
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.05);
+  color: var(--text);
+  font-weight: 800;
+  font-size: 12.5px;
+}
