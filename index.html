@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>André Pereira Ama Laize| Portfólio</title>
-  <meta name="description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e Projetos no GitHub." />
+  <title>André Pereira | Portfólio</title>
+
+  <meta name="description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
+
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Script oficial do LinkedIn (obrigatório para o badge) -->
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
-
 <body>
+
+  <!-- Topbar -->
   <header class="topbar">
     <div class="container topbar__content">
       <a class="brand" href="#">
@@ -30,20 +30,30 @@
   </header>
 
   <main>
+
     <!-- HERO -->
     <section class="hero">
       <div class="container hero__grid">
+
         <div class="hero__text">
           <p class="badge">🚀 Em formação • Engenharia de Software • UX/UI</p>
-          <h1>Construindo base sólida com projetos reais, documentação e evolução no GitHub.</h1>
+
+          <h1>
+            Construindo base sólida com projetos reais, documentação e evolução no GitHub.
+          </h1>
+
           <p class="subtitle">
-            Aqui você encontra meus estudos, diagramas UML, casos de uso e projetos que estou desenvolvendo
+            Aqui você encontra meus estudos, diagramas UML, casos de uso e projetos desenvolvidos
             durante a faculdade e prática diária.
           </p>
 
           <div class="hero__actions">
             <a class="btn" href="#projetos">📌 Ver Projetos</a>
+
             <a class="btn btn--ghost" href="https://github.com/andre-crator" target="_blank" rel="noreferrer">
+              <span class="icon">
+                <img src="assets/icons/github.svg" alt="" aria-hidden="true" />
+              </span>
               GitHub
             </a>
           </div>
@@ -51,32 +61,44 @@
           <div class="hero__stats">
             <div class="stat">
               <span class="stat__num">UML</span>
-              <span class="stat__label">Casos de uso + sequência + classes</span>
+              <span class="stat__label">Casos de uso, sequência e classes</span>
             </div>
+
             <div class="stat">
               <span class="stat__num">Docs</span>
               <span class="stat__label">README, versionamento e releases</span>
             </div>
+
             <div class="stat">
               <span class="stat__num">UX/UI</span>
-              <span class="stat__label">Interface, jornada e prototipação</span>
+              <span class="stat__label">Interface e jornada do usuário</span>
             </div>
           </div>
         </div>
 
+        <!-- Card Destaque -->
         <div class="hero__card">
           <div class="card">
             <h2>Em destaque</h2>
+
             <p>
-              Projeto acadêmico: <strong>Sistema de Gerenciamento de Matérias</strong> com UML e documentação.
+              Projeto acadêmico: <strong>Sistema de Gerenciamento de Matérias</strong>
+              com UML e documentação completa.
             </p>
+
+            <img
+              class="card__img"
+              src="assets/imagens/placeholder-hero.png"
+              alt="Imagem de destaque do projeto"
+            />
 
             <div class="card__links">
               <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
                 🔗 Repositório do projeto
               </a>
+
               <a class="link" href="https://andre-crator.github.io" target="_blank" rel="noreferrer">
-                🌐 Este site (GitHub Pages)
+                🌐 GitHub Pages
               </a>
             </div>
 
@@ -87,6 +109,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -95,9 +118,9 @@
       <div class="container">
         <h2>Sobre</h2>
         <p class="text">
-          Sou estudante de <strong>Engenharia de Software</strong> e estou estruturando meu portfólio com foco em:
-          Engenharia de Requisitos, UML, Git/GitHub e UX/UI. Gosto de organizar tudo com documentação clara
-          e evolução incremental (commit por commit).
+          Sou estudante de <strong>Engenharia de Software</strong> e estou estruturando meu portfólio
+          com foco em Engenharia de Requisitos, UML, Git/GitHub e UX/UI.
+          Trabalho com evolução incremental, documentação clara e histórico de commits organizado.
         </p>
       </div>
     </section>
@@ -108,27 +131,28 @@
         <h2>Projetos</h2>
 
         <div class="grid">
+
           <article class="project">
             <h3>Sistema de Gerenciamento de Matérias</h3>
             <p>
-              Projeto acadêmico com UML: casos de uso (UC01–UC03), diagramas de sequência e diagrama de classes.
+              Projeto acadêmico com UML (UC01–UC03), diagramas de sequência e diagrama de classes.
             </p>
             <div class="project__actions">
-              <a class="btn btn--small" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="btn btn--small btn--ghost" href="#" aria-disabled="true">Demo (em breve)</a>
+              <a class="btn btn--small" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank">GitHub</a>
+              <a class="btn btn--small btn--ghost" aria-disabled="true">Demo (em breve)</a>
             </div>
           </article>
 
           <article class="project">
             <h3>Interface e Jornada do Usuário (UX/UI)</h3>
             <p>
-              Estudos e entregas da disciplina: personas, empatia, arquitetura da informação, wireframes e protótipos.
+              Estudos de personas, empatia, arquitetura da informação, wireframes e protótipos.
             </p>
             <div class="project__actions">
-              <a class="btn btn--small" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="btn btn--small btn--ghost" href="#" aria-disabled="true">Assets (em breve)</a>
+              <a class="btn btn--small" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank">GitHub</a>
             </div>
           </article>
+
         </div>
       </div>
     </section>
@@ -137,45 +161,46 @@
     <section id="contato" class="section">
       <div class="container">
         <h2>Contato</h2>
-        <p class="text">
-          Quer falar comigo? Me encontre no GitHub e LinkedIn:
-        </p>
 
         <div class="contact">
-          <a class="btn" href="https://github.com/andre-crator" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
+          <a class="btn" href="https://github.com/andre-crator" target="_blank">GitHub</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank">
             LinkedIn
           </a>
         </div>
 
-        <!-- BADGE LINKEDIN -->
-        <div style="margin-top: 24px;">
+        <!-- LinkedIn Badge -->
+        <div class="linkedin-badge">
           <div class="badge-base LI-profile-badge"
                data-locale="pt_BR"
                data-size="large"
                data-theme="dark"
                data-type="HORIZONTAL"
-               data-vanity="andré-pereira-546099238"
+               data-vanity="andr%C3%A9-pereira-546099238"
                data-version="v1">
             <a class="badge-base__link LI-simple-link"
-               href="https://br.linkedin.com/in/andr%C3%A9-pereira-546099238?trk=profile-badge">
+               href="https://br.linkedin.com/in/andr%C3%A9-pereira-546099238">
               André Pereira
             </a>
           </div>
         </div>
+
       </div>
     </section>
+
   </main>
 
   <footer class="footer">
     <div class="container footer__content">
       <span>© <span id="year"></span> André Pereira</span>
-      <span class="muted">Feito com HTML + CSS • Hospedado no GitHub Pages</span>
+      <span class="muted">HTML + CSS • GitHub Pages</span>
     </div>
   </footer>
 
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
