@@ -4,27 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>André Pereira | Portfólio</title>
+
+  <!-- Favicon -->
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="assets/icons/favicon.svg">
-<link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+  <link rel="icon" href="assets/icons/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+
+  <!-- SEO -->
   <meta name="description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
   <meta name="author" content="André Pereira" />
-<meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow" />
 
-<!-- Open Graph (preview quando compartilha no WhatsApp/LinkedIn) -->
-<meta property="og:title" content="André Pereira | Portfólio" />
-<meta property="og:description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://andre-crator.github.io/" />
-<meta property="og:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="André Pereira | Portfólio" />
+  <meta property="og:description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://andre-crator.github.io/" />
+  <meta property="og:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="André Pereira | Portfólio" />
-<meta name="twitter:description" content="Engenharia de Software • UX/UI • Projetos no GitHub." />
-<meta name="twitter:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="André Pereira | Portfólio" />
+  <meta name="twitter:description" content="Engenharia de Software • UX/UI • Projetos no GitHub." />
+  <meta name="twitter:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- Topbar -->
@@ -32,16 +38,17 @@
     <div class="container topbar__content">
       <a class="brand" href="#">
         <span class="brand__dot"></span>
-        <span class="brand__name">André Pereira </span>
+        <span class="brand__name">André Pereira</span>
       </a>
 
       <nav class="nav">
         <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+      <a class="btn btn--ghost" href="#contato">Solicitar orçamento</a>
     </div>
   </header>
 
@@ -51,11 +58,13 @@
     <section class="hero">
       <div class="container hero__grid">
 
-        <p class="badge">🚀 Sites • Landing Pages • UX/UI para pequenos negócios</p>
+        <!-- Texto -->
+        <div class="hero__text">
+          <p class="badge">🚀 Sites • Landing Pages • UX/UI para pequenos negócios</p>
 
           <h1>
-             Crio sites e landing pages profissionais para pequenos negócios que querem mais presença online.
-          </h1>    
+            Crio sites e landing pages profissionais para pequenos negócios que querem mais presença online.
+          </h1>
 
           <p class="subtitle">
             Sites rápidos, claros e funcionais, com foco em conversão, organização e profissionalismo.
@@ -69,6 +78,10 @@
                 <img src="assets/icons/github.svg" alt="" aria-hidden="true" />
               </span>
               GitHub
+            </a>
+
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
+              LinkedIn
             </a>
           </div>
 
@@ -107,23 +120,22 @@
             />
 
             <div class="card__links">
-  <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
-    🔗 Repositório (UML / Engenharia)
-  </a>
+              <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
+                🔗 Repositório (UML / Engenharia)
+              </a>
 
-  <div class="card__links">
-  <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
-    🔗 Repositório UML
-  </a>
+              <a class="link" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">
+                🎨 Projeto UX/UI
+              </a>
 
-  <a class="link" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">
-    🎨 Projeto UX/UI
-  </a>
+              <a class="link" href="https://github.com/andre-crator/andre-crator.github.io/tree/main/landing/template" target="_blank" rel="noreferrer">
+                📄 Template Landing Page (v1)
+              </a>
 
-  <a class="link" href="https://andre-crator.github.io" target="_blank" rel="noreferrer">
-    🌐 GitHub Pages
-  </a>
-</div>
+              <a class="link" href="https://andre-crator.github.io" target="_blank" rel="noreferrer">
+                🌐 GitHub Pages
+              </a>
+            </div>
 
             <div class="card__footer">
               <span class="pill">HTML</span>
@@ -140,74 +152,125 @@
     <section id="sobre" class="section">
       <div class="container">
         <h2>Sobre</h2>
+
         <p class="text">
           Sou estudante de <strong>Engenharia de Software</strong> e atuo na criação de
-  <strong>sites e landing pages para pequenos negócios</strong>.
-  Trabalho com foco em organização, experiência do usuário (UX/UI) e documentação clara,
-  garantindo sites funcionais, profissionais e fáceis de manter.
+          <strong>sites e landing pages para pequenos negócios</strong>.
+          Trabalho com foco em organização, experiência do usuário (UX/UI) e documentação clara,
+          garantindo sites funcionais, profissionais e fáceis de manter.
         </p>
+
         <div class="skills">
-  <span class="skill">HTML5</span>
-  <span class="skill">CSS3</span>
-  <span class="skill">Git</span>
-  <span class="skill">GitHub</span>
-  <span class="skill">UML</span>
-  <span class="skill">Casos de Uso</span>
-  <span class="skill">Diagramas</span>
-  <span class="skill">UX/UI</span>
-</div>
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">Git</span>
+          <span class="skill">GitHub</span>
+          <span class="skill">UML</span>
+          <span class="skill">Casos de Uso</span>
+          <span class="skill">Diagramas</span>
+          <span class="skill">UX/UI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <h2>Serviços</h2>
+
+        <div class="grid">
+          <article class="project">
+            <h3>Sites institucionais</h3>
+            <p>
+              Sites profissionais para apresentar seu negócio, serviços e contato de forma clara e confiável.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Landing pages</h3>
+            <p>
+              Páginas focadas em conversão para captar clientes via WhatsApp, Instagram ou anúncios.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>UX/UI e organização</h3>
+            <p>
+              Personas, jornada do usuário, arquitetura da informação, wireframes e protótipos aplicáveis a sites reais.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
     <!-- PROJETOS -->
-    <section id="servicos" class="section">
-  <div class="container">
-    <h2>Serviços</h2>
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
 
-    <div class="grid">
-      <article class="project">
-        <h3>Sites institucionais</h3>
-        <p>
-          Sites profissionais para apresentar seu negócio, serviços e contato de forma clara e confiável.
-        </p>
-      </article>
+        <div class="grid">
+          <article class="project">
+            <h3>Sistema de Gerenciamento de Matérias</h3>
+            <p>
+              Projeto acadêmico com UML (UC01–UC03), diagramas de sequência e diagrama de classes.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+              <a class="btn btn--small btn--ghost" aria-disabled="true">Demo (em breve)</a>
+            </div>
+          </article>
 
-      <article class="project">
-        <h3>Landing pages</h3>
-        <p>
-          Páginas focadas em conversão para captar clientes via WhatsApp, Instagram ou anúncios.
-        </p>
-      </article>
+          <article class="project">
+            <h3>Interface e Jornada do Usuário (UX/UI)</h3>
+            <p>
+              Estudos de personas, empatia, arquitetura da informação, wireframes, protótipos e backlog de melhorias.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
 
-      <article class="project">
-        <h3>UX/UI e organização</h3>
-        <p>
-          Projeto de UX/UI com personas, jornada do usuário, arquitetura da informação,
-           wireframes e protótipos aplicáveis a sites reais.
-        </p>
-      </article>
-    </div>
-  </div>
-</section>
+          <article class="project">
+            <h3>Template de Landing Page (Pequenos Negócios)</h3>
+            <p>
+              Template reutilizável com foco em conversão, UX documentado (iterações 1–3), checklist e conteúdo-base.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="https://github.com/andre-crator/andre-crator.github.io/tree/main/landing/template" target="_blank" rel="noreferrer">
+                Ver Template
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <!-- CONTATO -->
     <section id="contato" class="section">
       <div class="container">
         <h2>Contato</h2>
+
         <p class="text">
-  Aberto a oportunidades de estágio, projetos acadêmicos e colaboração.
-  Se quiser falar comigo, pode me chamar pelo GitHub/LinkedIn.
-</p>
+          Aberto a oportunidades de estágio, projetos acadêmicos e colaboração.
+          Se quiser falar comigo, pode me chamar pelo GitHub/LinkedIn ou solicitar orçamento no WhatsApp.
+        </p>
 
         <div class="contact">
-          <a class="btn" href="https://github.com/andre-crator" target="_blank">GitHub</a>
-          <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank">
+          <a class="btn" href="https://github.com/andre-crator" target="_blank" rel="noreferrer">GitHub</a>
+
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a class="btn" href="https://wa.me/+55(24)99321-8745" target="_blank">
-          📩 Solicitar orçamento
+
+          <!-- WhatsApp: importante estar sem parênteses e sem "+" no link -->
+          <a class="btn" href="https://wa.me/5524993218745" target="_blank" rel="noreferrer">
+            📩 Solicitar orçamento
           </a>
-         </div>
+        </div>
 
         <!-- LinkedIn Badge -->
         <div class="linkedin-badge">
@@ -216,7 +279,7 @@
                data-size="large"
                data-theme="dark"
                data-type="HORIZONTAL"
-               data-vanity="andr%C3%A9-pereira-546099238"
+               data-vanity="andré-pereira-546099238"
                data-version="v1">
             <a class="badge-base__link LI-simple-link"
                href="https://br.linkedin.com/in/andr%C3%A9-pereira-546099238">
