@@ -27,3 +27,7 @@ permitindo reaproveitamento com mínimo esforço.
 
 ## Status
 Template inicial – em evolução contínua.
+
+## Iterações
+- Iteração 1: Estrutura base e UX de3 
+conteúdo (concluída)
