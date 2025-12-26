@@ -83,3 +83,5 @@ Copiar código
 
 ---
 
+## Templates
+- Template Landing Page (base reutilizável): https://andre-crator.github.io
