@@ -1,33 +1,35 @@
-# Template de Landing Page – Pequenos Negócios
+# Template de Landing Page – Pequenos Negócios (v1)
 
-Este template foi criado para ser reutilizado em sites simples e landing pages
-de pequenos negócios, profissionais autônomos e serviços locais.
-
-## Objetivo
-Servir como base rápida para criação de páginas profissionais,
-permitindo reaproveitamento com mínimo esforço.
-
-## Para quem é este template
+Este é um *template reutilizável* para criação rápida de sites/landing pages para:
 - Pequenos negócios
 - Prestadores de serviço
-- Portfólio pessoal
-- Páginas institucionais simples
+- Profissionais autônomos
+- Serviços locais (WhatsApp/Instagram)
 
-## Como reutilizar este template
-1. Copie a pasta template
-2. Renomeie para o nome do cliente ou projeto
-3. Edite os textos no arquivo conteudo.md
-4. Ajuste cores, imagens e links no index.html
-5. Publique normalmente no GitHub Pages ou outro host
+## O que este template entrega
+- Página rápida e objetiva (hero + serviços + projetos + contato)
+- Estrutura clara e fácil de editar
+- Pronto para publicar em GitHub Pages
+- Conteúdo separado do layout (via conteudo.md)
+
+## Como reutilizar (passo a passo)
+1) Copie a pasta template/landing-page
+2) Renomeie para cliente-nome (ex: barbearia-do-joao)
+3) Edite o arquivo conteudo.md (textos e CTA)
+4) Ajuste cores/imagens/links no style.css e index.html
+5) Publique (GitHub Pages ou host de sua preferência)
 
 ## Estrutura
-- index.html → Estrutura da página
-- style.css → Estilos
-- conteudo.md → Textos-base (headline, CTA, seções)
+- index.html → estrutura da página
+- style.css → estilos
+- conteudo.md → textos prontos para substituir
+- checklist.md → checklist de entrega
+- assets/ → imagens e ícones do projeto
+
+## Padrão de entrega (recomendado)
+- *Prazo*: 1–3 dias (dependendo do conteúdo)
+- *Entrega*: link publicado + repositório + print/preview
+- *Extras*: domínio próprio, analytics, SEO avançado (opcional)
 
 ## Status
-Template inicial – em evolução contínua.
-
-## Iterações
-- Iteração 1: Estrutura base e UX de3 
-conteúdo (concluída)
+v1 estabilizada — pronta para replicação.
