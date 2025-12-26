@@ -1,12 +1,29 @@
-# Template de Landing Page (Replicável)
+# Template de Landing Page – Pequenos Negócios
 
-Este template foi criado para pequenos negócios e prestadores de serviço.
-Foco: conversão e contato via WhatsApp.
+Este template foi criado para ser reutilizado em sites simples e landing pages
+de pequenos negócios, profissionais autônomos e serviços locais.
 
-## Como duplicar para um cliente
-1. Copie a pasta landing/template para landing/clientes/NOME-DO-CLIENTE
-2. Edite:
-   - Título, descrição e textos do index.html
-   - Número do WhatsApp (wa.me)
-   - Cores e detalhes no style.css
-3. Publique no GitHub Pages (ou Netlify)
+## Objetivo
+Servir como base rápida para criação de páginas profissionais,
+permitindo reaproveitamento com mínimo esforço.
+
+## Para quem é este template
+- Pequenos negócios
+- Prestadores de serviço
+- Portfólio pessoal
+- Páginas institucionais simples
+
+## Como reutilizar este template
+1. Copie a pasta template
+2. Renomeie para o nome do cliente ou projeto
+3. Edite os textos no arquivo conteudo.md
+4. Ajuste cores, imagens e links no index.html
+5. Publique normalmente no GitHub Pages ou outro host
+
+## Estrutura
+- index.html → Estrutura da página
+- style.css → Estilos
+- conteudo.md → Textos-base (headline, CTA, seções)
+
+## Status
+Template inicial – em evolução contínua.
