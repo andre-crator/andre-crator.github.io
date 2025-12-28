@@ -1,87 +1,90 @@
-[06:34, 21/12/2025] André: /* =========================
-   Base / Reset
-========================= */
-* { box-sizing: border-box; }
+# 🌐 André Pereira — Portfólio & Evolução em Tecnologia
 
-:root{
-  --bg: #0b0f14;
-  --panel: #0f1621;
-  --card: #101b2a;
-  --border: rgba(255,255,255,.08);
-  --text: rgba(255,255,255,.92);
-  --muted: rgba(255,255,255,.68);
-  --muted2: rgba(255,255,255,.55);
+Este repositório concentra a *identidade profissional, os **projetos publicados* e a *evolução contínua* dos meus estudos em Tecnologia e Engenharia de Software.
 
-  --primary: #3b82f6;  /* azul */
-  --primary2:#22c55e;  /* verde */
-  --shadow: 0 16px 40px rgba(0,0,0,.45);
-  --radius: 16px;
-
-  --max: 1100px;
-}
-
-html, body { height: 100%; }
-body{
-  margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:
-    radial-gradient(900px 500px at 15% 10%, rgba(59,130,246,.20), transparent 60%),
-    radial-gradient(700px 400px at 80% 20%, rgba(34,197,94,.14), transparent 55%),
-    rad…
-[06:54, 21/12/2025] André: # 🌐 Portfólio — André Pereira
-
-Portfólio pessoal para apresentar meus projetos, estudos e evolução na área de Tecnologia.
-
-✅ Site publicado no GitHub Pages:  
-https://andre-crator.github.io
+🔗 Site publicado no GitHub Pages  
+👉 https://andre-crator.github.io
 
 ---
 
 ## 👨‍💻 Sobre mim
 
-Sou estudante de Engenharia de Software e estou construindo minha base prática em:
+Sou estudante de *Engenharia de Software, com foco em construir uma base sólida entre **fundamentos teóricos* e *prática real*.
+
+Atualmente desenvolvo projetos nas áreas de:
 - Desenvolvimento Web (HTML, CSS, Git/GitHub)
-- Engenharia de Software (UML, requisitos, documentação)
-- UX/UI (estrutura, usabilidade e boas práticas)
+- Engenharia de Software (documentação, requisitos, UML)
+- UX/UI (estrutura, usabilidade e jornada do usuário)
+- Organização de estudos e versionamento de projetos
+
+Meu objetivo é aprender *de forma progressiva*, documentada e aplicada.
 
 ---
 
-## 🎯 Objetivo deste repositório
+## 🧭 Como este portfólio é organizado
 
-Este repositório contém a estrutura inicial do meu site profissional e será evoluído com commits pequenos para manter histórico e organização.
+Este portfólio *não é um projeto único, mas um **ecossistema de repositórios*, cada um representando uma área de estudo ou aplicação prática.
 
----
+### Repositórios principais
 
-## 📁 Estrutura do projeto
+- 🌐 *andre-crator.github.io*  
+  Site pessoal e ponto central do portfólio
 
-text
-andre-crator.github.io/
-├── index.html
-├── style.css
-├── assets/
-│   ├── imagens/
-│   └── icons/
-└── README.md
-🧱 Tecnologias usadas
-HTML5
-CSS3
-Git & GitHub
-GitHub Pages
-✅ Roadmap (próximos passos)
-[ ] Inserir seção “Projetos” com links para repositórios principais
-[ ] Adicionar badge do LinkedIn
-[ ] Criar seção “Sobre / Skills”
-[ ] Adicionar imagens e ícones em /assets
-[ ] Melhorar acessibilidade e responsividade
-[ ] Criar versão em inglês (opcional)
-🔗 Contato
-LinkedIn: (coloque seu link aqui)
-GitHub: https://github.com/andre-crator
-📌 Histórico
-Este projeto está sendo construído passo a passo para documentar minha evolução e servir como portfólio.
-Copiar código
+- 🧰 *claudio-pequenos-reparos*  
+  Landing page para cliente real, com foco em conversão e contato via WhatsApp
+
+- 🎓 *controle-estudos-engenharia-software*  
+  Sistema acadêmico para organização de matérias e progresso de estudos
+
+- 🎨 *interface-e-jornada-do-usuario*  
+  Estudos e projetos de UX/UI e experiência do usuário
+
+- 🗄️ *EP4-Banco-Enciclopedia*  
+  Scripts SQL e modelagem de banco de dados acadêmico
+
+- 📁 *portfolio*  
+  Repositório agregador de documentação e referências
 
 ---
 
-## Templates
-- Template Landing Page (base reutilizável): https://andre-crator.github.io
+## 🧱 Tecnologias utilizadas até o momento
+
+- HTML5  
+- CSS3  
+- Git & GitHub  
+- GitHub Pages  
+- Noções de UX/UI  
+- SQL (modelagem e scripts acadêmicos)
+
+---
+
+## 📚 Estudos em andamento
+
+- Graduação em Engenharia de Software
+- Curso *CC50 – Ciência da Computação (Harvard / Brasil)*
+- Estudos contínuos em Git, versionamento e organização de projetos
+
+⚠️ Este portfólio é atualizado *conforme o aprendizado avança*, sempre com commits pequenos e rastreáveis.
+
+---
+
+## 🛣️ Roadmap do portfólio
+
+- [ ] Consolidar seção de projetos no site
+- [ ] Adicionar indicadores de progresso de estudos
+- [ ] Evoluir layout e acessibilidade
+- [ ] Criar versões incrementais dos projetos existentes
+- [ ] Integrar novos cursos e aprendizados conforme conclusão
+
+---
+
+## 🔗 Contato
+
+- GitHub: https://github.com/andre-crator  
+- LinkedIn: https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/
+
+---
+
+📌 *Nota importante*  
+Este repositório documenta minha *evolução real*, sem atalhos ou promessas vazias.  
+Cada projeto representa um passo concreto no aprendizado.
