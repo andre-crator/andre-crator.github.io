@@ -3,37 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>André Pereira | Portfólio</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="assets/icons/favicon.svg">
-  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
-
-  <!-- SEO -->
-  <meta name="description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
+  
+  <title>André Pereira | Engenheiro de Software & UX Designer</title>
+  
+  <meta name="description" content="Portfólio de André Pereira. Engenharia de Software, UX Design (Google) e Lógica de Programação (Harvard CS50)." />
   <meta name="author" content="André Pereira" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="André Pereira | Portfólio" />
-  <meta property="og:description" content="Portfólio de André Pereira — Engenharia de Software, UX/UI e projetos documentados no GitHub." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://andre-crator.github.io/" />
-  <meta property="og:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="André Pereira | Portfólio" />
-  <meta name="twitter:description" content="Engenharia de Software • UX/UI • Projetos no GitHub." />
-  <meta name="twitter:image" content="https://andre-crator.github.io/assets/imagens/placeholder-hero.png" />
+  
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- Topbar -->
   <header class="topbar">
     <div class="container topbar__content">
       <a class="brand" href="#">
@@ -41,110 +24,92 @@
         <span class="brand__name">André Pereira</span>
       </a>
 
-      <nav class="nav">
+      <button class="btn-mobile" aria-label="Abrir menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav" id="nav-menu">
         <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="btn btn--ghost" href="#contato">Solicitar orçamento</a>
+      <a class="btn btn--ghost desktop-only" href="https://github.com/andre-crator" target="_blank">
+        GitHub
+      </a>
     </div>
   </header>
 
   <main>
 
-    <!-- HERO -->
     <section class="hero">
       <div class="container hero__grid">
-
-        <!-- Texto -->
+        
         <div class="hero__text">
-          <p class="badge">🚀 Sites • Landing Pages • UX/UI para pequenos negócios</p>
+          <p class="badge">🚀 Engenharia de Software • Front-end • UX/UI</p>
 
           <h1>
-            Crio sites e landing pages profissionais para pequenos negócios que querem mais presença online.
+            Desenvolvo soluções digitais que unem <span style="color: var(--primary);">lógica robusta</span> e <span style="color: var(--primary2);">design centrado no usuário</span>.
           </h1>
 
           <p class="subtitle">
-            Sites rápidos, claros e funcionais, com foco em conversão, organização e profissionalismo.
+            Estudante de Engenharia de Software com base técnica em Harvard (CS50) e Google (UX). 
+            Transformo problemas complexos em interfaces limpas, funcionais e documentadas.
           </p>
 
           <div class="hero__actions">
             <a class="btn" href="#projetos">📌 Ver Projetos</a>
 
-            <a class="btn btn--ghost" href="https://github.com/andre-crator" target="_blank" rel="noreferrer">
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
               <span class="icon">
                 <img src="assets/icons/github.svg" alt="" aria-hidden="true" />
               </span>
-              GitHub
-            </a>
-
-            <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </div>
 
           <div class="hero__stats">
             <div class="stat">
-              <span class="stat__num">UML</span>
-              <span class="stat__label">Casos de uso, sequência e classes</span>
+              <span class="stat__num">Lógica</span>
+              <span class="stat__label">Algoritmos & C (CS50)</span>
             </div>
 
             <div class="stat">
-              <span class="stat__num">Docs</span>
-              <span class="stat__label">README, versionamento e releases</span>
+              <span class="stat__num">Processos</span>
+              <span class="stat__label">Scrum, DevOps & UML</span>
             </div>
 
             <div class="stat">
               <span class="stat__num">UX/UI</span>
-              <span class="stat__label">Interface e jornada do usuário</span>
+              <span class="stat__label">Google Certificate</span>
             </div>
           </div>
         </div>
 
-        <!-- Card Destaque -->
         <div class="hero__card">
           <div class="card">
             <h2>Em destaque</h2>
-
             <p>
-              Projeto acadêmico: <strong>Sistema de Gerenciamento de Matérias</strong>
-              com UML e documentação completa.
+              Projeto acadêmico: <strong>Gestor de Estudos (SaaS)</strong>
+              com Dashboards e KPIs.
             </p>
 
             <img
               class="card__img"
-              src="assets/imagens/placeholder-hero.png"
-              alt="Imagem de destaque do projeto"
+              src="assets/imagens/placeholder-hero.png" 
+              alt="Imagem do Dashboard do Sistema"
             />
 
             <div class="card__links">
-              <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
-                🔗 Repositório (UML / Engenharia)
-              </a>
-
-              <a class="link" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">
-                🎨 Projeto UX/UI
-              </a>
-
-              <a class="link" href="https://github.com/andre-crator/andre-crator.github.io/tree/main/landing/template" target="_blank" rel="noreferrer">
-                📄 Template Landing Page (v1)
-              </a>
-
-              <a class="link" href="https://andre-crator.github.io" target="_blank" rel="noreferrer">
-                🌐 GitHub Pages
-              </a>
-
-              <a class="link" href="https://github.com/andre-crator/SEU-REPO-DO-TEMPLATE" target="_blank" rel="noreferrer">
-                🧩 Template Landing Page (reutilizável)
+              <a class="link" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank">
+                🔗 Ver Código e Documentação
               </a>
             </div>
 
             <div class="card__footer">
-              <span class="pill">HTML</span>
-              <span class="pill">CSS</span>
-              <span class="pill">Git/GitHub</span>
+              <span class="pill">TypeScript</span>
+              <span class="pill">Chart.js</span>
+              <span class="pill">UX</span>
             </div>
           </div>
         </div>
@@ -152,159 +117,105 @@
       </div>
     </section>
 
-    <!-- SOBRE -->
     <section id="sobre" class="section">
       <div class="container">
-        <h2>Sobre</h2>
+        <h2>Sobre Mim</h2>
 
         <p class="text">
-          Sou estudante de <strong>Engenharia de Software</strong> e atuo na criação de
-          <strong>sites e landing pages para pequenos negócios</strong>.
-          Trabalho com foco em organização, experiência do usuário (UX/UI) e documentação clara,
-          garantindo sites funcionais, profissionais e fáceis de manter.
+          Mais do que escrever código, meu foco é a <strong>Engenharia de Software completa</strong>: 
+          da concepção do produto (UX) à arquitetura do sistema (Backend). 
+          Atualmente, construo minha base técnica em três pilares fundamentais:
         </p>
+        
+        <br>
+
+        <ul class="text" style="list-style: none; padding: 0; color: var(--muted);">
+          <li style="margin-bottom: 12px;">🧠 <strong>Lógica Robusta:</strong> Algoritmos e estruturas de dados com C e Python (Harvard CS50).</li>
+          <li style="margin-bottom: 12px;">🎨 <strong>Visão de Produto:</strong> Wireframing, prototipagem e pesquisa com usuário (Google UX).</li>
+          <li>⚙️ <strong>Processos de Engenharia:</strong> Ciclo de vida (SDLC), metodologias ágeis (Scrum), DevOps e métricas de qualidade.</li>
+        </ul>
 
         <div class="skills">
-          <span class="skill">HTML5</span>
-          <span class="skill">CSS3</span>
-          <span class="skill">Git</span>
-          <span class="skill">GitHub</span>
+          <span class="skill">TypeScript</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Linguagem C</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Git/GitHub</span>
           <span class="skill">UML</span>
-          <span class="skill">Casos de Uso</span>
-          <span class="skill">Diagramas</span>
-          <span class="skill">UX/UI</span>
+          <span class="skill">Scrum</span>
+          <span class="skill">Figma</span>
+          <span class="skill">Modelagem de Dados</span>
         </div>
       </div>
     </section>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos" class="section">
-      <div class="container">
-        <h2>Serviços</h2>
-
-        <div class="grid">
-          <article class="project">
-            <h3>Sites institucionais</h3>
-            <p>
-              Sites profissionais para apresentar seu negócio, serviços e contato de forma clara e confiável.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>Landing pages</h3>
-            <p>
-              Páginas focadas em conversão para captar clientes via WhatsApp, Instagram ou anúncios.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>UX/UI e organização</h3>
-            <p>
-              Personas, jornada do usuário, arquitetura da informação, wireframes e protótipos aplicáveis a sites reais.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>Template pronto (Landing Page)</h3>
-             <p>
-             Base reutilizável para criar páginas rápidas para clientes.
-              Troca fácil de textos, cores, imagens e links — com checklist e conteúdo.md.
-             </p>
-           <div class="project__actions">
-        <a class="btn btn--small" href="https://github.com/andre-crator/SEU-REPO-DO-TEMPLATE" target="_blank" rel="noreferrer">
-        Ver template
-    </a>
-  </div>
-</article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJETOS -->
     <section id="projetos" class="section">
       <div class="container">
-        <h2>Projetos</h2>
+        <h2>Projetos Selecionados</h2>
 
         <div class="grid">
+          
           <article class="project">
-            <h3>Sistema de Gerenciamento de Matérias</h3>
+            <h3>Gestor de Estudos (SaaS)</h3>
             <p>
-              Projeto acadêmico com UML (UC01–UC03), diagramas de sequência e diagrama de classes.
+              Aplicação web completa com Dashboard analítico e KPIs de progresso.
+              Foco em UX para reduzir ansiedade do estudante.
             </p>
             <div class="project__actions">
-              <a class="btn btn--small" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-              <a class="btn btn--small btn--ghost" aria-disabled="true">Demo (em breve)</a>
-            </div>
-          </article>
-
-          <article class="project">
-            <h3>Interface e Jornada do Usuário (UX/UI)</h3>
-            <p>
-              Estudos de personas, empatia, arquitetura da informação, wireframes, protótipos e backlog de melhorias.
-            </p>
-            <div class="project__actions">
-              <a class="btn btn--small" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank" rel="noreferrer">
-                GitHub
+              <a class="btn btn--small" href="https://github.com/andre-crator/controle-estudos-engenharia-software" target="_blank">
+                Ver Código & Docs
               </a>
             </div>
           </article>
 
           <article class="project">
-            <h3>Template de Landing Page (Pequenos Negócios)</h3>
+            <h3>Plataforma Sanctum Digital</h3>
             <p>
-              Template reutilizável com foco em conversão, UX documentado (iterações 1–3), checklist e conteúdo-base.
+              (Bíblia da Noiva) Sistema de consumo de conteúdo denso com arquitetura de informação complexa e Design System próprio (Dark/Gold).
             </p>
             <div class="project__actions">
-              <a class="btn btn--small" href="https://github.com/andre-crator/andre-crator.github.io/tree/main/landing/template" target="_blank" rel="noreferrer">
-                Ver Template
+              <a class="btn btn--small" href="https://github.com/andre-crator/biblia-da-noiva" target="_blank">
+                Ver Projeto
               </a>
             </div>
           </article>
+
+          <article class="project">
+            <h3>Case Study: UX Research</h3>
+            <p>
+              Documentação completa de processo de design: Personas, Jornada do Usuário, Wireframes (Low/High) e Testes de Usabilidade.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="https://github.com/andre-crator/interface-e-jornada-do-usuario" target="_blank">
+                Ler Case Study
+              </a>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
-    <!-- CONTATO -->
     <section id="contato" class="section">
       <div class="container">
         <h2>Contato</h2>
-
         <p class="text">
-          Aberto a oportunidades de estágio, projetos acadêmicos e colaboração.
-          Se quiser falar comigo, pode me chamar pelo GitHub/LinkedIn ou solicitar orçamento no WhatsApp.
+          Aberto a oportunidades de estágio e colaboração em projetos de Engenharia de Software.
         </p>
 
         <div class="contact">
-          <a class="btn" href="https://github.com/andre-crator" target="_blank" rel="noreferrer">GitHub</a>
-
-          <a class="btn btn--ghost" href="https://www.linkedin.com/in/andr%C3%A9-pereira-546099238/" target="_blank" rel="noreferrer">
+          <a class="btn" href="https://linkedin.com/in/andre-pereira-machado" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
+          
+          <a class="btn btn--ghost" href="mailto:borges1993637358@gmail.com">
+            ✉️ Enviar Email
+          </a>
 
-          <!-- WhatsApp: importante estar sem parênteses e sem "+" no link -->
-          <a class="btn" href="https://wa.me/5524993218745" target="_blank" rel="noreferrer">
-            📩 Solicitar orçamento
+          <a class="btn btn--ghost" href="https://github.com/andre-crator" target="_blank">
+            GitHub
           </a>
         </div>
-
-        <!-- LinkedIn Badge -->
-        <div class="linkedin-badge">
-          <div class="badge-base LI-profile-badge"
-               data-locale="pt_BR"
-               data-size="large"
-               data-theme="dark"
-               data-type="HORIZONTAL"
-               data-vanity="andré-pereira-546099238"
-               data-version="v1">
-            <a class="badge-base__link LI-simple-link"
-               href="https://br.linkedin.com/in/andr%C3%A9-pereira-546099238">
-              André Pereira
-            </a>
-          </div>
-        </div>
-
       </div>
     </section>
 
@@ -313,13 +224,34 @@
   <footer class="footer">
     <div class="container footer__content">
       <span>© <span id="year"></span> André Pereira</span>
-      <span class="muted">HTML + CSS • GitHub Pages</span>
+      <span class="muted">Engenharia de Software • UX/UI</span>
     </div>
   </footer>
 
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script>
+    // Atualiza o ano automaticamente
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Menu Mobile
+    const btnMobile = document.querySelector('.btn-mobile');
+    const nav = document.getElementById('nav-menu');
+
+    function toggleMenu() {
+      nav.classList.toggle('active');
+      btnMobile.classList.toggle('active');
+      const active = nav.classList.contains('active');
+      btnMobile.setAttribute('aria-expanded', active);
+    }
+
+    btnMobile.addEventListener('click', toggleMenu);
+
+    // Fecha o menu ao clicar em um link
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        btnMobile.classList.remove('active');
+      });
+    });
   </script>
 
 </body>
