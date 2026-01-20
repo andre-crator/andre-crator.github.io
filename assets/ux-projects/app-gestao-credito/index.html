@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo de Caso: App de Gestão de Crédito</title>
     <style>
-        /* Estilos básicos para facilitar a leitura imediata */
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; }
         header { background: #f4f4f4; padding: 40px 20px; text-align: center; border-radius: 8px; margin-bottom: 40px; }
         h1 { color: #2c3e50; margin-bottom: 10px; }
         h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; }
         h3 { color: #e67e22; margin-top: 25px; }
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .card { background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        /* Grid para colocar as duas personas lado a lado */
+        .personas-grid { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+        .persona-card { flex: 1; min-width: 300px; background: #fff; border: 1px solid #ddd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .persona-img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 4px; margin-bottom: 15px; }
+
         .destaque { background-color: #e8f4fd; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0; }
-        img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 20px; display: block; margin-left: auto; margin-right: auto;}
+        
+        /* Estilo para as imagens grandes (Jornada, Wireframes) */
+        .img-full { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 20px; display: block; }
+        
         footer { margin-top: 60px; text-align: center; font-size: 0.9em; color: #777; }
         a.btn { display: inline-block; background: #333; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
     </style>
@@ -42,43 +48,53 @@
 
     <section id="empatizar">
         <h2>1. Entendendo o Usuário (Empatizar)</h2>
-        <p>Realizei entrevistas com usuários e criei mapas de empatia para entender as necessidades dos usuários alvo. A pesquisa revelou que os usuários variam de jovens estudantes a profissionais estabelecidos que buscam otimizar gastos.</p>
+        <p>Realizei entrevistas com usuários e criei mapas de empatia para entender as necessidades. Descobri que os usuários variam de jovens estudantes a profissionais estabelecidos.</p>
         
         <h3>Personas</h3>
-        <p>Com base na pesquisa, criei duas personas principais para guiar o design: Carlos, um pequeno empresário, e Elliot, um estudante focado em economizar.</p>
+        <p>Criei duas personas principais para guiar o design:</p>
         
-        <img src="image_2.png" alt="Cartões das Personas Carlos e Elliot">
+        <div class="personas-grid">
+            <div class="persona-card">
+                <img src="persona_carlos.png" alt="Foto do Carlos" class="persona-img">
+                <h4>Carlos, 50 anos</h4>
+                <p><strong>Ocupação:</strong> Dono de Empresa</p>
+                <p><em>"Preciso expandir meu estoque sem me endividar com juros altos."</em></p>
+            </div>
+
+            <div class="persona-card">
+                <img src="persona_elliot.png" alt="Foto do Elliot" class="persona-img">
+                <h4>Elliot, 44 anos</h4>
+                <p><strong>Ocupação:</strong> Chef e Estudante</p>
+                <p><em>"Quero controlar cada centavo para pagar meus estudos."</em></p>
+            </div>
+        </div>
     </section>
 
     <section id="definir">
         <h2>2. Definindo o Problema</h2>
-        <p>Com base na pesquisa e nas personas, defini a seguinte declaração de problema focada nas necessidades do Carlos.</p>
         <div class="destaque">
-            <p><strong>Declaração de Problema:</strong> Carlos é um pequeno empresário ocupado que precisa de uma maneira fácil de analisar opções de crédito e taxas de juros, porque ele quer expandir seu inventário sem comprometer o fluxo de caixa do negócio com dívidas caras.</p>
+            <p><strong>Declaração de Problema:</strong> Carlos é um pequeno empresário ocupado que precisa de uma maneira fácil de analisar opções de crédito, porque ele quer expandir seu negócio com segurança.</p>
         </div>
         <h3>Mapa da Jornada do Usuário</h3>
-        <p>Mapeei a jornada atual do Carlos para visualizar os pontos de dor no processo de tentar obter crédito para o seu negócio.</p>
+        <p>Mapeei a jornada atual do usuário para visualizar os pontos de dor e frustração no processo atual.</p>
         
-        <img src="image_3.png" alt="Mapa da Jornada do Usuário de Carlos">
+        <img src="mapa_jornada.png" alt="Mapa da Jornada do Usuário" class="img-full">
     </section>
 
     <section id="idear">
         <h2>3. Ideação (Ideate)</h2>
-        <h3>Análise da Concorrência e Esboços</h3>
-        <p>Analisei concorrentes diretos e indiretos para identificar lacunas no mercado. Em seguida, utilizei a técnica "Crazy 8s" para gerar rapidamente várias ideias de layout e funcionalidades para o aplicativo.</p>
+        <h3>Esboços (Crazy 8s)</h3>
+        <p>Utilizei a técnica "Crazy 8s" no papel para gerar rapidamente várias ideias de layout antes de ir para o computador.</p>
 
-        <img src="image_4.png" alt="Esboços Crazy 8s em papel">
+        <img src="esbocos_crazy8s.png" alt="Esboços Crazy 8s em papel" class="img-full">
     </section>
 
     <section id="prototipar">
-        <h2>4. Prototipagem e Testes</h2>
+        <h2>4. Prototipagem</h2>
         <h3>Wireframes de Baixa Fidelidade</h3>
-        <p>Selecionei as melhores ideias dos esboços e criei wireframes digitais de baixa fidelidade para estruturar o fluxo principal do usuário: verificar o score, simular um crédito e comparar ofertas.</p>
+        <p>Criei a estrutura digital (esqueleto) das principais telas do aplicativo: Dashboard, Simulador e Lista de Cartões.</p>
         
-        <img src="image_5.png" alt="Wireframes de baixa fidelidade do fluxo principal do app">
-        
-        <h3>Estudo de Usabilidade (Planejado)</h3>
-        <p>O próximo passo é conduzir um teste de usabilidade com estes wireframes para validar o fluxo e a arquitetura da informação com usuários reais antes de passar para o design visual de alta fidelidade.</p>
+        <img src="wireframes_lofi.png" alt="Wireframes de baixa fidelidade" class="img-full">
     </section>
 
     <footer>
