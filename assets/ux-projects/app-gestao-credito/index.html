@@ -14,7 +14,7 @@
         .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
         .card { background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         .destaque { background-color: #e8f4fd; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0; }
-        img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 10px; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 20px; display: block; margin-left: auto; margin-right: auto;}
         footer { margin-top: 60px; text-align: center; font-size: 0.9em; color: #777; }
         a.btn { display: inline-block; background: #333; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
     </style>
@@ -42,78 +42,43 @@
 
     <section id="empatizar">
         <h2>1. Entendendo o Usuário (Empatizar)</h2>
-        <p>Realizei entrevistas com usuários e criei mapas de empatia para entender as necessidades dos usuários alvo.</p>
+        <p>Realizei entrevistas com usuários e criei mapas de empatia para entender as necessidades dos usuários alvo. A pesquisa revelou que os usuários variam de jovens estudantes a profissionais estabelecidos que buscam otimizar gastos.</p>
         
-        <h3>Pesquisa e Personas</h3>
-        <p>A pesquisa revelou que os usuários variam de jovens estudantes a profissionais estabelecidos que buscam otimizar gastos.</p>
+        <h3>Personas</h3>
+        <p>Com base na pesquisa, criei duas personas principais para guiar o design: Carlos, um pequeno empresário, e Elliot, um estudante focado em economizar.</p>
         
-       <div class="grid-2">
-            <div class="card">
-                <h4>Persona: Carlos</h4>
-                <p><strong>Idade:</strong> 50 anos</p>
-                <p><strong>Ocupação:</strong> Dono de Pequena Empresa (NYC)</p>
-                <p><em>"À medida que o negócio cresce, preciso de uma maneira melhor de gerenciar a administração e o estoque."</em></p>
-                <p><strong>Objetivo:</strong> Obter crédito para expandir o inventário e simplificar a gestão financeira do negócio.</p>
-            </div>
-            <div class="card">
-                <h4>Persona: Elliot</h4>
-                <p><strong>Idade:</strong> 44 anos</p>
-                <p><strong>Ocupação:</strong> Cozinheiro e Estudante de Analytics</p>
-                <p><em>"O bootcamp é caro, então estou tentando economizar dinheiro com comida e transporte."</em></p>
-                <p><strong>Objetivo:</strong> Controlar gastos diários para pagar os estudos e manter o equilíbrio financeiro.</p>
-            </div>
-        </div>
+        <img src="image_2.png" alt="Cartões das Personas Carlos e Elliot">
     </section>
 
     <section id="definir">
         <h2>2. Definindo o Problema</h2>
-        <p>Com base na pesquisa, defini a seguinte declaração de problema:</p>
+        <p>Com base na pesquisa e nas personas, defini a seguinte declaração de problema focada nas necessidades do Carlos.</p>
         <div class="destaque">
             <p><strong>Declaração de Problema:</strong> Carlos é um pequeno empresário ocupado que precisa de uma maneira fácil de analisar opções de crédito e taxas de juros, porque ele quer expandir seu inventário sem comprometer o fluxo de caixa do negócio com dívidas caras.</p>
         </div>
         <h3>Mapa da Jornada do Usuário</h3>
-        <p>Mapeei a jornada do usuário para visualizar o processo atual de tentar verificar uma pontuação de crédito e solicitar um cartão.</p>
-        <div style="background:#eee; height:200px; display:flex; align-items:center; justify-content:center; border: 2px dashed #ccc;">
-            [Imagem: Mapa da Jornada do Usuário]
-        </div>
+        <p>Mapeei a jornada atual do Carlos para visualizar os pontos de dor no processo de tentar obter crédito para o seu negócio.</p>
+        
+        <img src="image_3.png" alt="Mapa da Jornada do Usuário de Carlos">
     </section>
 
     <section id="idear">
         <h2>3. Ideação (Ideate)</h2>
-        <h3>Análise da Concorrência</h3>
-        <p>Analisei concorrentes diretos e indiretos para identificar lacunas no mercado.</p>
-        <ul>
-            <li><strong>Concorrente A:</strong> Ponto forte: Design limpo. Ponto fraco: Muitas taxas ocultas.</li>
-            <li><strong>Concorrente B:</strong> Ponto forte: Bons relatórios. Ponto fraco: Navegação confusa.</li>
-        </ul>
+        <h3>Análise da Concorrência e Esboços</h3>
+        <p>Analisei concorrentes diretos e indiretos para identificar lacunas no mercado. Em seguida, utilizei a técnica "Crazy 8s" para gerar rapidamente várias ideias de layout e funcionalidades para o aplicativo.</p>
 
-        <h3>Esboços (Crazy 8s)</h3>
-        <p>Utilizei a técnica Crazy 8s para gerar ideias rápidas de layout para a tela inicial do app.</p>
-        <div style="background:#eee; height:200px; display:flex; align-items:center; justify-content:center; border: 2px dashed #ccc;">
-            [Imagem: Fotos dos Esboços em Papel]
-        </div>
+        <img src="image_4.png" alt="Esboços Crazy 8s em papel">
     </section>
 
     <section id="prototipar">
         <h2>4. Prototipagem e Testes</h2>
         <h3>Wireframes de Baixa Fidelidade</h3>
-        <p>Criei wireframes digitais focando na arquitetura da informação e fluxo do usuário.</p>
+        <p>Selecionei as melhores ideias dos esboços e criei wireframes digitais de baixa fidelidade para estruturar o fluxo principal do usuário: verificar o score, simular um crédito e comparar ofertas.</p>
         
-        <h3>Estudo de Usabilidade</h3>
-        <p>Conduzi um teste de usabilidade não moderado com 5 participantes. Os principais insights foram:</p>
-        <ul>
-            <li><strong>Insight 1:</strong> Usuários tiveram dificuldade em encontrar o botão "Simular Crédito".</li>
-            <li><strong>Insight 2:</strong> A terminologia "Score" não ficou clara para alguns usuários.</li>
-        </ul>
-        <p>Com base nisso, alterei o layout para dar mais destaque às ações principais.</p>
-    </section>
-
-    <section id="mockups">
-        <h2>5. Mockups de Alta Fidelidade</h2>
-        <p>Após as iterações, cheguei ao design final (Mockups).</p>
-        <div style="background:#e8f4fd; height:300px; display:flex; align-items:center; justify-content:center; border: 2px solid #3498db;">
-            [Imagem: Mockup da Tela Principal do App]
-        </div>
+        <img src="image_5.png" alt="Wireframes de baixa fidelidade do fluxo principal do app">
+        
+        <h3>Estudo de Usabilidade (Planejado)</h3>
+        <p>O próximo passo é conduzir um teste de usabilidade com estes wireframes para validar o fluxo e a arquitetura da informação com usuários reais antes de passar para o design visual de alta fidelidade.</p>
     </section>
 
     <footer>
